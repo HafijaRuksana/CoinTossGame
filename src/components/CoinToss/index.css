@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.coin-toss-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.content-card {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 700px;
+}
+.description {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  border: none;
+}
+.result {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  display: flex;
+  margin-right: 10px;
+}
+.result-image {
+  display: flex;
+  width: 125px;
+}
+.result-container {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 576px) {
+  .result-container {
+    flex-direction: column;
+  }
+}
